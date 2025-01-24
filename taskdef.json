@@ -1,9 +1,10 @@
-{
+[
+  {
     "family": "my-task-family",
     "containerDefinitions": [
       {
-        "name": "my-app-container",
-        "image": "IMAGE",
+        "name": "my-app-container",  
+        "image": "<IMAGE>",          
         "memory": 512,
         "cpu": 256,
         "essential": true,
@@ -16,4 +17,6 @@
       }
     ]
   }
+]
+
   
